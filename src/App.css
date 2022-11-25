@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,800;1,300;1,600&family=Outfit:wght@400;700&display=swap');
+
+
+
+
+/*.root{
+  - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+}*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+font-size: 15px;
+}
+img{
+  width:97%;
+  display: block;
+  margin: auto ;
+  padding:7%;
+border-radius:10%;
+
+
+}
+.ha{
+ width:20%;
+  margin: auto;
+  margin-top:6rem;
+  background-color: #ffff;
+  border-radius:5%;
+  }
+p{
+
+  text-align: center;
+  font-weight:bolder;
+color: hsl(218, 44%, 22%);
+font-size: 20px;
+}
+#down{
+  text-align: center;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  padding: 10px;
+
+
+}
+
+@media only screen and (max-width: 425px){
+  .ha{
+    width:70%;
+     margin: auto;
+     margin-top:6rem;
+     background-color: #ffff;
+     border-radius:5%;
+     }
+   
+
+
+}
